@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Correcto -->
+    <script src="js/screencharge.js"></script>
+    <link rel="stylesheet" href="css/styles_screencharge.css">
+    <title>Portafolio 3D Wc Focus</title>
+</head>
+<body>
+  
+  <div class="casa" id="h">
+    
+    <div class="h-lights">
+      <div class="h-light"></div>
+      <div class="h-light"></div>
+      <div class="h-light"></div>
+      <div class="h-light"></div>
+      <div class="h-light"></div>
+      <div class="h-light"></div>
+    </div>
+        
+    <div class="h-shadow">
+    </div>
+    
+    <div class="suelo">
+      <div class="suelo_abajo face"></div>
+      <div class="suelo_arriba face"></div>
+      <div class="suelo_atras face"></div>
+      <div class="suelo_izquierda face"></div>
+      <div class="suelo_derecha face"></div>
+      <div class="suelo_alfrente face"></div>
+    </div>
+
+
+        <div class="anden_izq">
+            <div class="anden_izq__front face"> </div>
+            <div class="anden_izq__back face"> </div>
+            <div class="anden_izq__right face"> </div>
+            <div class="anden_izq__left face"> </div>
+            <div class="anden_izq__top face"> </div>
+            <div class="anden_izq__bottom face"> </div>
+         </div>
+
+        <div class="anden_der">
+            <div class="anden_der__front face"> </div>
+            <div class="anden_der__back face"> </div>
+            <div class="anden_der__right face"> </div>
+            <div class="anden_der__left face"> </div>
+            <div class="anden_der__top face"> </div>
+            <div class="anden_der__bottom face"> </div>
+        </div>
+
+        <div class="pared_fondo">
+            <div class="pared_fondo__front face"> </div>
+            <div class="pared_fondo__back face"> </div>
+            <div class="pared_fondo__right face"> </div>
+            <div class="pared_fondo__left face"> </div>
+            <div class="pared_fondo__top face"> </div>
+            <div class="pared_fondo__bottom face"> </div>
+        </div>
+
+        <div class="pared_fondo_techo">
+            <div class="pared_fondo_techo__front face"> </div>
+            <div class="pared_fondo_techo__back face"> </div>
+            <div class="pared_fondo_techo__right face"> </div>
+            <div class="pared_fondo_techo__left face"> </div>
+            <div class="pared_fondo_techo__top face"> </div>
+            <div class="pared_fondo_techo__bottom face"> </div>
+          </div>
+          
+          <div class="pared_derecha">
+            <div class="pared_derecha__front face"> </div>
+            <div class="pared_derecha__back face"> </div>
+            <div class="pared_derecha__right face"> </div>
+            <div class="pared_derecha__left face"> </div>
+            <div class="pared_derecha__top face"> </div>
+            <div class="pared_derecha__bottom face"> </div>
+        </div>
+
+        <div class="pared_derecha_techo">
+            <div class="pared_derecha_techo__front face"> </div>
+            <div class="pared_derecha_techo__back face"> </div>
+            <div class="pared_derecha_techo__right face"> </div>
+            <div class="pared_derecha_techo__left face"> </div>
+            <div class="pared_derecha_techo__top face"> </div>
+            <div class="pared_derecha_techo__bottom face"> </div>
+        </div>
+
+        <div class="muro">
+            <div class="muro__front face"> </div>
+            <div class="muro__back face"> </div>
+            <div class="muro__right face"> </div>
+            <div class="muro__left face"> </div>
+            <div class="muro__top face"> </div>
+            <div class="muro__bottom face"> </div>
+        </div>
+
+        <div class="puerta-c">
+          <a href="https://www.linkedin.com/in/wc-echeverri/" target="_blank" class="puerta_portal_a"> 
+          </a>
+            <div class="puerta">
+              <div class="puerta__front face"> </div>
+              <div class="puerta__back face"> </div>
+              <div class="puerta__right face"> </div>
+              <div class="puerta__left face"> </div>
+              <div class="puerta__top face"> </div>
+              <div class="puerta__bottom face"> </div>
+            </div>
+            <div class="puerta-l">
+              <div class="puerta-l__front face"> </div>
+              <div class="puerta-l__back face"> </div>
+              <div class="puerta-l__right face"> </div>
+              <div class="puerta-l__left face"> </div>
+              <div class="puerta-l__top face"> </div>
+              <div class="puerta-l__bottom face"> </div>
+            </div>
+            <div class="puerta-r">
+              <div class="puerta-r__front face"> </div>
+              <div class="puerta-r__back face"> </div>
+              <div class="puerta-r__right face"> </div>
+              <div class="puerta-r__left face"> </div>
+              <div class="puerta-r__top face"> </div>
+              <div class="puerta-r__bottom face"> </div>
+            </div>
+            <div class="puerta-t">
+              <div class="puerta-t__front face"> </div>
+              <div class="puerta-t__back face"> </div>
+              <div class="puerta-t__right face"> </div>
+              <div class="puerta-t__left face"> </div>
+              <div class="puerta-t__top face"> </div>
+              <div class="puerta-t__bottom face"> </div>
+            </div>
+        </div>
+
+        <div class="tv">
+                <div class="tv__front face"> </div>
+                <div class="tv__back face"> </div>
+                <div class="tv__right face"> </div>
+                <div class="tv__left face"> </div>
+                <div class="tv__top face"> </div>
+                <div class="tv__bottom face"> </div>
+        </div>
+
+        <div class="tv2">
+                <div class="tv2__front face"> </div>
+                <div class="tv2__back face"> </div>
+                <div class="tv2__right face"> </div>
+                <div class="tv2__left face"> </div>
+                <div class="tv2__top face"> </div>
+                <div class="tv2__bottom face"> </div>
+        </div>
+
+        <div class="tv3" id="tv3">
+
+            <div class="tv3__front face"> </div>
+            <div class="tv3__back face"> </div>
+            <div class="tv3__right face"> 
+
+
+              
+            </div>
+            <div class="tv3__left face"> </div>
+            <div class="tv3__top face"> </div>
+            <div class="tv3__bottom face"> </div>
+        </div>
+
+        <div class="repisa-b">
+                <div class="repisa-b__front face"> </div>
+                <div class="repisa-b__back face"> </div>
+                <div class="repisa-b__right face"> </div>
+                <div class="repisa-b__left face"> </div>
+                <div class="repisa-b__top face"> </div>
+                <div class="repisa-b__bottom face"> </div>
+        </div>
+        
+        <div class="alfombra">
+
+          <div class="alfombra__top face"> </div>
+        </div>
+
+        <div class="sillon-c">
+                <div class="sillon-b">
+                  <div class="sillon-b__front face"> </div>
+                  <div class="sillon-b__back face"> </div>
+                  <div class="sillon-b__right face"> </div>
+                  <div class="sillon-b__left face"> </div>
+                  <div class="sillon-b__top face"> </div>
+                  <div class="sillon-b__bottom face"> </div>
+                </div>
+                <div class="sillon-t">
+                  <div class="sillon-t__front face"> </div>
+                  <div class="sillon-t__back face"> </div>
+                  <div class="sillon-t__right face"> </div>
+                  <div class="sillon-t__left face"> </div>
+                  <div class="sillon-t__top face"> </div>
+                  <div class="sillon-t__bottom face"> </div>
+                </div>
+                <div class="sillon-l">
+                  <div class="sillon-l__front face"> </div>
+                  <div class="sillon-l__back face"> </div>
+                  <div class="sillon-l__right face"> </div>
+                  <div class="sillon-l__left face"> </div>
+                  <div class="sillon-l__top face"> </div>
+                  <div class="sillon-l__bottom face"> </div>
+                </div>
+                <div class="sillon-r">
+                  <div class="sillon-r__front face"> </div>
+                  <div class="sillon-r__back face"> </div>
+                  <div class="sillon-r__right face"> </div>
+                  <div class="sillon-r__left face"> </div>
+                  <div class="sillon-r__top face"> </div>
+                  <div class="sillon-r__bottom face"> </div>
+                </div>
+        </div>
+
+        <div class="bursts">
+                    <div class="burst"> 
+                      <div class="circle flex">
+                        <div class="circle-a"> 
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__side"></div>
+                          <div class="circle-a__bottom"></div>
+                          <div class="circle-a__top"></div>
+                        </div>
+                        <div class="circle-b"> 
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__side"></div>
+                          <div class="circle-b__bottom">
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                            <div class="burst__leaf"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        </div>
+
+        <div class="cuadro-l">
+          <div class="cuadro-l__front face"> </div>
+          <div class="cuadro-l__back face"> </div>
+          <div class="cuadro-l__right face"> </div>
+          <div class="cuadro-l__left face"> </div>
+          <div class="cuadro-l__top face"> </div>
+          <div class="cuadro-l__bottom face"> </div>
+
+        </div>
+
+        <div class="cuadro-r">
+          <div class="cuadro-r__front face"> </div>
+          <div class="cuadro-r__back face"> </div>
+          <div class="cuadro-r__right face"> </div>
+          <div class="cuadro-r__left face"> </div>
+          <div class="cuadro-r__top face"> </div>
+          <div class="cuadro-r__bottom face"> </div>
+      </div>
+
+        <div class="librero">
+                        <div class="librero__front face"> </div>
+                        <div class="librero__back face"> </div>
+                        <div class="librero__right face"> </div>
+                        <div class="librero__left face"> </div>
+                        <div class="librero__top face"> </div>
+                        <div class="librero__bottom face">    </div>
+        </div>
+
+        <div class="libros"> 
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+                        <div class="libro">
+                          <div class="libro__front face"> </div>
+                          <div class="libro__back face"> </div>
+                          <div class="libro__right face"> </div>
+                          <div class="libro__left face"> </div>
+                          <div class="libro__top face"> </div>
+                          <div class="libro__bottom face"> </div>
+                        </div>
+        </div>
+
+        <div class="mesa-c">
+                        <div class="mesa">
+                          <div class="mesa__front face"> </div>
+                          <div class="mesa__back face"> </div>
+                          <div class="mesa__right face"> </div>
+                          <div class="mesa__left face"> </div>
+                          <div class="mesa__top face"> </div>
+                          <div class="mesa__bottom face"> </div>
+                        </div>
+                        <div class="mesa-p">
+                          <div class="mesa-p__front face"> </div>
+                          <div class="mesa-p__back face"> </div>
+                          <div class="mesa-p__right face"> </div>
+                          <div class="mesa-p__left face"> </div>
+                          <div class="mesa-p__top face"> </div>
+                          <div class="mesa-p__bottom face"> </div>
+                        </div>
+                        <div class="mesa-p">
+                          <div class="mesa-p__front face"> </div>
+                          <div class="mesa-p__back face"> </div>
+                          <div class="mesa-p__right face"> </div>
+                          <div class="mesa-p__left face"> </div>
+                          <div class="mesa-p__top face"> </div>
+                          <div class="mesa-p__bottom face"> </div>
+                        </div>
+                        <div class="mesa-p">
+                          <div class="mesa-p__front face"> </div>
+                          <div class="mesa-p__back face"> </div>
+                          <div class="mesa-p__right face"> </div>
+                          <div class="mesa-p__left face"> </div>
+                          <div class="mesa-p__top face"> </div>
+                          <div class="mesa-p__bottom face"> </div>
+                        </div>
+                        <div class="mesa-p">
+                          <div class="mesa-p__front face"> </div>
+                          <div class="mesa-p__back face"> </div>
+                          <div class="mesa-p__right face"> </div>
+                          <div class="mesa-p__left face"> </div>
+                          <div class="mesa-p__top face"> </div>
+                          <div class="mesa-p__bottom face"> </div>
+                        </div>
+                        <div class="mesa-shadow"></div>
+        </div>
+
+        <div class="tablet">
+                        <div class="tablet__front face"> </div>
+                        <div class="tablet__back face"> </div>
+                        <div class="tablet__right face"> </div>
+                        <div class="tablet__left face"> </div>
+                        <div class="tablet__top face"> </div>
+                        <div class="tablet__bottom face">    </div>
+        </div>
+
+
+        <div class="silla-c">
+          
+                        <div class="silla">
+                          <div class="silla__front face"> </div>
+                          <div class="silla__back face"> </div>
+                          <div class="silla__right face"> </div>
+                          <div class="silla__left face"> </div>
+                          <div class="silla__top face"> </div>
+                          <div class="silla__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-p">
+                          <div class="silla-p__front face"> </div>
+                          <div class="silla-p__back face"> </div>
+                          <div class="silla-p__right face"> </div>
+                          <div class="silla-p__left face"> </div>
+                          <div class="silla-p__top face"> </div>
+                          <div class="silla-p__bottom face"> </div>
+                        </div>
+                        <div class="silla-shadow"></div>
+
+                        <div class="espaldar">
+                          <div class="espaldar__front face"> </div>
+                          <div class="espaldar__back face"> </div>
+                          <div class="espaldar__right face"> </div>
+                          <div class="espaldar__left face"> </div>
+                          <div class="espaldar__top face"> </div>
+                          <div class="espaldar__bottom face"> </div>
+                        </div>
+                        <div class="espaldar">
+                          <div class="espaldar__front face"> </div>
+                          <div class="espaldar__back face"> </div>
+                          <div class="espaldar__right face"> </div>
+                          <div class="espaldar__left face"> </div>
+                          <div class="espaldar__top face"> </div>
+                          <div class="espaldar__bottom face"> </div>
+                        </div>
+                        <div class="espaldar">
+                          <div class="espaldar__front face"> </div>
+                          <div class="espaldar__back face"> </div>
+                          <div class="espaldar__right face"> </div>
+                          <div class="espaldar__left face"> </div>
+                          <div class="espaldar__top face"> </div>
+                          <div class="espaldar__bottom face"> </div>
+                        </div>
+                        <div class="espaldar">
+                          <div class="espaldar__front face"> </div>
+                          <div class="espaldar__back face"> </div>
+                          <div class="espaldar__right face"> </div>
+                          <div class="espaldar__left face"> </div>
+                          <div class="espaldar__top face"> </div>
+                          <div class="espaldar__bottom face"> </div>
+                        </div>
+        </div>
+                    
+
+        <div class="bocina-l">
+          <div class="bocina-l__front face"> </div>
+          <div class="bocina-l__back face"> </div>
+          <div class="bocina-l__right face"> </div>
+          <div class="bocina-l__left face"> </div>
+          <div class="bocina-l__top face"> </div>
+          <div class="bocina-l__bottom face"> </div>
+        </div>
+        <div class="bocina-r">
+          <div class="bocina-r__front face"> </div>
+          <div class="bocina-r__back face"> </div>
+          <div class="bocina-r__right face"> </div>
+          <div class="bocina-r__left face"> </div>
+          <div class="bocina-r__top face"> </div>
+          <div class="bocina-r__bottom face"> </div>
+        </div>
+                  
+    </div>
+    <!--
+    <button id="moveLeft">Mover a la izquierda</button>
+    <button id="moveRight">Mover a la derecha</button>
+
+    
+  -->
+  <div id="loader" class="loader">
+    <div class="loader-text">
+      <!-- Letra W -->
+
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100 %"
+        height="100 %"
+      >
+        <path
+          class="path"
+          d="M 4.48 2.56 L 4.48 81.92 L 15.36 81.92 L 43.52 58.24 L 72.96 81.92 L 83.2 81.92 L 83.84 2.56 L 75.52 2.56 L 75.52 72.96 L 48 50.56 L 48 2.56 L 39.68 2.56 L 39.68 50.56 L 16.64 69.76 L 16 23.68 C 14.72 19.2 15.36 19.2 12.16 16 L 12.16 2.56 L 4.48 2.56"
+        />
+      </svg>
+      <!-- Letra C -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="-20 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M 38 30 L 15 30 C 7 31 2 36 2 43 L 2 68 C 2 72 5 81 16 82 L 38 82 L 38 74 L 18 74 C 16 74 14.594 74.046 14.485 72.081 L 14.542 59.939 C 14 56 13 55 10 51 L 10 44 C 10 40 13 38 16 38 L 38 38 L 38 30"
+        />
+      </svg>
+      <!-- Letra F -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M 14 3 C 8 4 2 9 2 15 L 2 83 L 14 83 L 14 47 l 36 0 L 50 38 L 14 38 L 14 23 C 13 20 12 19 10 16 C 11 13 12 12 15 11 L 15 11 L 58 11 L 58 3 L 14 3"
+        />
+      </svg>
+      <!-- Letra O -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M 34 43 C 34 40 32 38 28 38 L 16 38 C 13 38 11 40 10 43 L 10 55 C 11 56 12 57 12 59 L 12 71 C 12 73 14 74 16 74 L 29 74 C 31 74 34 71 34 69 L 34 69 L 34 57 L 34 43 M 42 69 C 41 76 37 80 30 82 L 15 82 C 10 81 3 78 2 69 L 2 43 C 3 35 10 31 15 30 L 30 30 C 36 31 41 35 42 43 Z"
+        />
+      </svg>
+      <!-- Letra C -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M 38 30 L 15 30 C 7 31 2 36 2 43 L 2 68 C 2 72 5 81 16 82 L 38 82 L 38 74 L 18 74 C 16 74 14.594 74.046 14.485 72.081 L 14.542 59.939 C 14 56 13 55 10 51 L 10 44 C 10 40 13 38 16 38 L 38 38 L 38 30"
+        />
+      </svg>
+      <!-- Letra U -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M28 82H16C12 82 2 78 2 68V30h8V51c.522.612 2.012 1.356 2.292 4.988V72.609c.372.838 1.629 1.583 3.818 1.583l11.778-.047C31 74 33 72 34 68V30h8V68c0 5-5 14-14 14"
+        />
+      </svg>
+      <!-- Letra S -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M10 70 2 70C2 78 8 82 13 82L31 82C38 82 42 76 42 71L42 61C41 52 33 50 30 50L14 50C12 50 10 49 10 46L10 42C10 40 11 38 14 38L29 38C32 38 33 39 34 42L42 42C42 38 39 30 29 30L14 30C6 30 2 36 2 42L2 47C3 55 9 58 14 58L29 58C32 58 34 60 34 63L34 70C34 73 32 74 30 74L14 74C11 74 10 72 10 70"
+        />
+      </svg>
+      <!-- Alien -->
+      <svg
+        class="letter"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        width="100"
+        height="100"
+      >
+        <path
+          class="path"
+          d="M 27.0038,27.0038L 30.0042,27.0038L 30.0042,30.0042L 33.0046,30.0042L 33.0046,33.0046L 43.006,33.0046L 43.006,30.0042L 46.0064,30.0042L 46.0064,27.0038L 49.0068,27.0038L 49.0068,30.0042L 46.0064,30.0042L 46.0064,33.0046L 49.0068,33.0046L 49.0068,36.005L 52.0073,36.005L 52.0073,40.0056L 49.0068,40.0056L 49.0068,49.0068L 46.0064,49.0068L 46.0064,52.0073L 40.0056,52.0073L 40.0056,49.0068L 46.0064,49.0068L 46.0064,44.0061L 30.0042,44.0061L 30.0042,49.0068L 27.0038,49.0068L 27.0038,40.0056L 24.0033,40.0056L 24.0033,46.0064L 20.0028,46.0064L 20.0028,40.0056L 24.0033,40.0056L 24.0033,36.005L 27.0038,36.005L 27.0038,33.0046L 30.0042,33.0046L 30.0042,30.0042L 27.0038,30.0042L 27.0038,27.0038 Z M 52.0073,40.0056L 56.0078,40.0056L 56.0078,46.0064L 52.0073,46.0064L 52.0073,40.0056 Z M 30.0042,49.0068L 36.005,49.0068L 36.005,52.0073L 30.0042,52.0073L 30.0042,49.0068 Z M 30.0042,36.005L 30.0042,40.0056L 34.0047,40.0056L 34.0047,36.005L 30.0042,36.005 Z M 42.0059,36.005L 42.0059,40.0056L 46.0064,40.0056L 46.0064,36.005L 42.0059,36.005 Z "
+        />
+      </svg>
+    </div>
+  </div>
+
+</body>
+</html>
